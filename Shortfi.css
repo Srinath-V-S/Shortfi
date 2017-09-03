@@ -1,0 +1,80 @@
+
+#containerPlain{
+     color:#ffaaaa;
+    padding: 20px;
+    background-color: #801515;
+    font-family: "Fira Code Retina";
+}
+
+.searchbar{
+    border-radius: 20px;
+    /*background-image: url('magnifying-glass.svg');*/
+    width: 450px;
+    box-sizing: content-box;
+    border :2px solid #a76d6d;
+    color: #ffffff;
+    padding: 12px 20px 12px 40px;
+    background-color: #000000;
+    background-position: 460px 1px ;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 16px;
+
+}
+#brand{
+    font-family: 'Lobster', cursive;
+    color: #550000;
+ }
+
+#style{
+    background-color: #550000;
+}
+
+#topnav{
+    margin-top:20px;
+    background-color: #D46a6a;
+}
+a{
+    color:whitesmoke;
+}
+
+body{
+    padding: 50px;
+    /*background-color: #AA3939;*/
+    background-image: url("curtain.png");
+}
+.modal-dialog {
+    width: 400px;
+}
+.modal-footer {
+    height: 70px;
+    margin: 0;
+}
+.modal-footer .btn {
+    font-weight: bold;
+}
+.modal-footer .progress {
+    display:none;
+    height: 30px;
+    margin: 0;
+}
+.input-group-addon {
+    color: #fff;
+    background: #ffffff;
+
+}
+
+.colorPh::-webkit-input-placeholder {
+    color: #ffffff !important;
+}
+ 
+@font-face{
+    font-family: "ReklameScript";
+    src:
+            url('fonts/ReklameScript-Regular_DEMO.otf')
+            format('opentype');
+    src:
+            url('fonts/ReklameScript-Regular_DEMO.otf')
+            format('truetype');
+}
